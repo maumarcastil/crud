@@ -2,14 +2,14 @@ import firebase from "firebase/app";
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAd1i5bg3iSvrveDt0B98ajleewQDGmfW0",
-  authDomain: "crudfire-1cce8.firebaseapp.com",
-  projectId: "crudfire-1cce8",
-  storageBucket: "crudfire-1cce8.appspot.com",
-  messagingSenderId: "940530543593",
-  appId: "1:940530543593:web:c43e4fa8a6c7f79b37f978"
+  apiKey: "AIzaSyAJOhwmkPFchYzhWZyNgY4OCnj9KQqnd7o",
+  authDomain: "crud-60a70.firebaseapp.com",
+  projectId: "crud-60a70",
+  storageBucket: "crud-60a70.appspot.com",
+  messagingSenderId: "622622364226",
+  appId: "1:622622364226:web:c571c3a84a975f5c0213db",
+  measurementId: "G-6WS6EW85K5"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 export {firebase};
